@@ -412,7 +412,7 @@ sensor:
       accuracy_decimals: 3
       filters:
         - lambda: |-
-            return x * id(flow2_calibration_factor) * id(flow2_calibration_offset) ;
+            return x * id(flow2_calibration_factor) * id(flow2_calibration_offset);
 
 # === Text Sensors ===
 text_sensor:
