@@ -381,7 +381,7 @@ sensor:
       accuracy_decimals: 3
       filters:
         - lambda: |-
-            return x * id(flow1_calibration_factor) * id(flow1_calibration_offset) / 60.0;
+            return x * id(flow1_calibration_factor) * id(flow1_calibration_offset);
 
   # === Flow Sensor 2 ===
   # Uses dynamic calibration based on sensor type selection
@@ -412,7 +412,7 @@ sensor:
       accuracy_decimals: 3
       filters:
         - lambda: |-
-            return x * id(flow2_calibration_factor) * id(flow2_calibration_offset) / 60.0;
+            return x * id(flow2_calibration_factor) * id(flow2_calibration_offset) ;
 
 # === Text Sensors ===
 text_sensor:
