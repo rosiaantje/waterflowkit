@@ -10,8 +10,8 @@ substitutions:
   hardware_version: "V1"
   
   # OTA manifest URLs
-  wifi_manifest_url: "https://smarthomeshop.github.io/waterflowkit/waterflowkit-v1-wifi-manifest.json"
-  wifi_cloud_manifest_url: "https://smarthomeshop.github.io/waterflowkit/waterflowkit-v1-wifi-cloud-manifest.json"
+  wifi_manifest_url: "https://rosiaantje.github.io/waterflowkit/waterflowkit-v1-wifi-manifest.json"
+  wifi_cloud_manifest_url: "https://rosiaantje.github.io/waterflowkit/waterflowkit-v1-wifi-cloud-manifest.json"
   
   # Default values (can be overridden)
   default_network: "WiFi"
